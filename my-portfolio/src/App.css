@@ -1,38 +1,156 @@
-.App {
+/* @import url('https: //fonts.googleapis.com');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+
+body {
+  font-family: 'Playfair Display',
+    serif;
+}
+
+.background-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-title {
+  font-family: 'Playfair Display',
+    serif;
+  color: white;
+  font-size: 10rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.intro-text {
+  font-family: 'Playfair Display',
+    serif;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box {
   display: flex;
-  flex-direction: column;
+  padding-left: 25px;
+  padding-right: 25px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+
+
+.project-title {
+  font-family: 'Playfair Display',
+    serif;
   color: white;
+  font-size: 7rem;
+  text-align: center;
+  padding-bottom: 60px;
 }
 
-.App-link {
-  color: #61dafb;
+.projects-container {
+  padding: 60px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact-text {
+  font-family: 'Playfair Display',
+    serif;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  justify-content: flex-end;
+  padding-bottom: 40px;
 }
+
+.box-two {
+  display: flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.skills-card-title {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  border-bottom: solid 2px #01f9c6;
+  padding: 3%;
+}
+
+.skills-card {
+  background-color: black;
+  border: solid 2px white;
+}
+
+.zoom {
+  padding: 20px;
+  background-color: white;
+  transition: transform .2s;
+  margin: 0 auto;
+  border-style: solid;
+  border-color: #01f9c6;
+  border-width: 4px;
+}
+
+.zoom:hover {
+  transform: scale(0.9);
+}
+
+@media screen and (max-width: 600px) and (max-width: 768px) {
+  .navbar-nav>li {
+    display: block;
+  }
+
+  .main-title {
+    font-size: 3rem;
+    padding-bottom: 25%;
+  }
+
+  .intro-text {
+    font-size: 2rem;
+  }
+
+  .intro-section {
+    padding-bottom: 1%;
+  }
+
+  .project-title {
+    font-size: 2rem;
+    padding: 5%;
+  }
+
+  .project-section {
+    padding-top: 30%;
+  }
+
+  .contact-box {
+    align-items: flex-end;
+  }
+
+  .contact-section {
+    padding-left: 20%;
+    padding-right: 20%;
+    height: 150vh;
+    padding-top: 50%;
+
+
+  }
+
+  .contact-text {
+
+    -webkit-line-clamp: 13;
+    display: -webkit-box;
+    line-height: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5rem;
+    font-size: medium;
+  }
+
+  .second-card {
+    padding-top: 40px;
+  }
+} */

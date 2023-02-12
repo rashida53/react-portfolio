@@ -1,0 +1,14 @@
+@import url('https: //fonts.googleapis.com');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+.navbar-nav>li {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Playfair Display',
+        serif;
+}
+
+.navbar {
+    font-family: 'Playfair Display',
+        serif;
+}
