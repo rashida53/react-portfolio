@@ -32,9 +32,16 @@ export default function Project() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div>
+        <>
             <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
-        </div>
+        </>
+
+
+
+
+
+
+
     )
 }

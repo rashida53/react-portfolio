@@ -8,7 +8,7 @@ const styles = {
         fontFamily: `'Playfair Display',
     serif`,
         color: 'white',
-        paddingTop: '5%',
+        // paddingTop: '5%',
         fontSize: '7rem',
         textAlign: 'center',
         paddingBottom: '60px'
@@ -19,11 +19,14 @@ const styles = {
     cardStyle: {
         paddingLeft: '10%',
         paddingRight: '10%',
+        paddingBottom: '5%'
         // paddingTop: '1%'
     },
     skillsCard: {
         backgroundColor: 'black',
         border: 'solid 2px white',
+
+
     },
     skillsCardTitle: {
         textAlign: 'center',

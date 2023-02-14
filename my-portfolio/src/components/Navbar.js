@@ -9,7 +9,7 @@ const styles = {
    },
    navBar: {
       justifyContent: 'center',
-      position: 'absolute',
+      // position: 'absolute',
       borderBottom: 'solid 1px #01f9c6',
       width: '100%',
       backgroundColor: 'black',

@@ -1,0 +1,12 @@
+@media screen and (max-width: 600px) and (max-width: 768px) {
+    .container-div {
+        padding-top: 50%;
+    }
+
+
+}
+
+.test-para {
+    color: white;
+    font-size: 2rem;
+}
