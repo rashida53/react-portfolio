@@ -16,11 +16,11 @@ This repository contains the code for my personal portfolio built using react. I
 
 ### The following image shows the web application's appearance and functionality:
 
-![screenshot](https://github.com/rashida53/tech-blog/blob/main/tech-blog-2.png?raw=true)
+![screenshot](https://github.com/rashida53/react-portfolio/blob/main/portfolio-1.png?raw=true)
 
-![screenshot](https://github.com/rashida53/tech-blog/blob/main/tech-blog.png?raw=true)
+![screenshot](https://github.com/rashida53/react-portfolio/blob/main/portfolio-2.png?raw=true)
 
-![screenshot](https://github.com/rashida53/tech-blog/blob/main/tech-blog-3.png?raw=true)
+![screenshot](https://github.com/rashida53/react-portfolio/blob/main/portfolio-3.png?raw=true)
 
 ## [**Installation**](#table-of-contents)
 
