@@ -4,7 +4,6 @@ import About from "./pages/About"
 import Portfolio from "./pages/Portfolio";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
-import Skills from "./pages/Skills";
 import Navbar from "./Navbar";
 
 
@@ -18,9 +17,6 @@ export default function Project() {
         }
         if (currentPage === 'Portfolio') {
             return <Portfolio />;
-        }
-        if (currentPage === 'Skills') {
-            return <Skills />;
         }
         if (currentPage === 'Resume') {
             return <Resume />;

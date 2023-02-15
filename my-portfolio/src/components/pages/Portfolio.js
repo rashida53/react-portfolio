@@ -67,7 +67,6 @@ export default function Portfolio() {
                     </div>
                     <div className="col-lg-4 col-sm-12 second-card">
                         <div className="card h-100" id="cardDiv" style={styles.zoom}>
-                            <div class="card-header"><a style={styles.header} href="https://rashida53.github.io/project-one/">rashida53.github.io/project-one/</a></div>
                             <a href="https://rashida53.github.io/project-one/">
                                 <img className="card-img-top hover-zoom" src="images/foodle.png" alt="Card image cap"></img>
                                 <span className="text">

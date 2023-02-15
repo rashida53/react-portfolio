@@ -23,7 +23,7 @@ export default function Footer() {
 
 
                         <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                        ><SocialIcon network="twitter" label="Our portfolio" />
+                        ><SocialIcon url="" label="Our portfolio" />
                         </a>
 
 

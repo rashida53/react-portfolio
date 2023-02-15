@@ -1,0 +1,12 @@
+.skills-card-title {
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    border-bottom: solid 2px #01f9c6;
+    padding: 3%;
+}
+
+.skills-card {
+    background-color: black;
+    border: solid 2px white;
+}
