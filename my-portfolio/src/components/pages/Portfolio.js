@@ -91,7 +91,7 @@ export default function Portfolio() {
                     <div className="col-lg-4 col-sm-12" style={styles.bottomCards}>
                         <div className="card h-100" id="cardDiv" style={styles.zoom}>
                             <a href="https://rashida53.github.io/horiseon-refactor/">
-                                <img className="card-img-top hover-zoom" src="images/Horiseon-refactor.png" alt="Card image cap"></img>
+                                <img className="card-img-top hover-zoom" src="images/horiseon-refactor.png" alt="Card image cap"></img>
                                 <span className="text">
                                     <SocialIcon className="socialIcon" url="https://rashida53.github.io/horiseon-refactor/" label="Website link" />
                                     <SocialIcon className="socialIcon" url="https://github.com/rashida53/event-handler" label="Github repo link" /></span>

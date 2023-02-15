@@ -28,11 +28,6 @@ export default function Footer() {
 
 
                         <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                        ><SocialIcon network="google" label="Our portfolio" />
-                        </a>
-
-
-                        <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
                         ><SocialIcon network="github" url="https://github.com/rashida53" label="github" /></a>
 
 
