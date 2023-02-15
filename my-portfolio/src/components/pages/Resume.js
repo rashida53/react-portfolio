@@ -77,11 +77,13 @@ export default function Resume() {
                     <div className="card-body">
                         <h5 className="card-title" style={styles.skillsCardTitle}>Back End</h5>
                         <ul style={styles.listStyle}>
-                            <li>Express.JS</li>
                             <li>Node.JS</li>
-                            <li>Unit Testing (Jest)</li>
+                            <li>Apollo</li>
                             <li>APIs (3P, Server-side)</li>
                             <li>ORM (Sequelize, Mongoose)</li>
+                            <li>Express.JS</li>
+                            <li>Unit Testing (Jest)</li>
+
                         </ul>
                     </div>
                 </div>
@@ -90,6 +92,7 @@ export default function Resume() {
                         <h5 className="card-title" style={styles.skillsCardTitle}>Databases</h5>
                         <ul style={styles.listStyle}>
                             <li>SQL</li>
+                            <li>GraphQL</li>
                             <li>MySQL</li>
                             <li>MongoDB</li>
                             <li>IndexedDB</li>

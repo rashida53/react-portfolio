@@ -21,18 +21,13 @@ export default function Footer() {
 
                     <section className="mb-4">
 
-
-                        <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                        ><SocialIcon url="" label="Our portfolio" />
-                        </a>
-
-
-                        <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                        ><SocialIcon network="github" url="https://github.com/rashida53" label="github" /></a>
-
-
                         <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
                         ><SocialIcon url="https://www.linkedin.com/in/rashida-kapadia-4435961a2" />
+                        </a>
+                        <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                        ><SocialIcon network="github" url="https://github.com/rashida53" label="github" /></a>
+                        <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+                        ><SocialIcon url="https://www.instagram.com/rashidamk/" network="instagram" label="Our portfolio" />
                         </a>
 
                     </section>

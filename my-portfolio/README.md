@@ -1,4 +1,4 @@
-# tech-blog
+# portfolio
 
 ## [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -12,7 +12,7 @@ This repository contains the code for my personal portfolio built using react. I
 - [License](#license)
 - [Questions](#questions)
 
-### This application has been deployed on heroku and can be viewed [here](https://arcane-hollows-20210.herokuapp.com)
+### This application has been deployed on heroku and can be viewed [here](https://safe-beyond-71267.herokuapp.com/)
 
 ### The following image shows the web application's appearance and functionality:
 

@@ -1,6 +1,7 @@
 import React from "react";
 import '../../styles/Portfolio.css';
-import { SocialIcon } from 'react-social-icons';
+import { FaExternalLinkAlt } from "react-icons/fa"
+import { FaGithub } from 'react-icons/fa'
 
 
 const styles = {
@@ -57,8 +58,10 @@ export default function Portfolio() {
                                 <img className="card-img-top bg-image hover-zoom" src="images/everrands.png"
                                     alt="Card image cap"></img>
                                 <span className="text">
-                                    <SocialIcon className="socialIcon" url="https://arcane-hollows-20210.herokuapp.com/" label="Website link" />
-                                    <SocialIcon className="socialIcon" url="https://github.com/rashida53/event-handler" network="github" label="Github repo link" /></span>
+                                    <FaExternalLinkAlt size={'30px'} color={'black'} padding={'10px'} url={'https://arcane-hollows-20210.herokuapp.com/'} />
+                                    <FaGithub size={'30px'} color={'black'} url={'https://github.com/rashida53/event-handler'} />
+                                </span>
+
                             </a>
 
                         </div>
@@ -66,72 +69,79 @@ export default function Portfolio() {
 
                     </div>
                     <div className="col-lg-4 col-sm-12 second-card">
-                        <div className="card h-100" id="cardDiv" style={styles.zoom}>
+                        <div className="card h-100 zoom" id="cardDiv" style={styles.zoom}>
                             <a href="https://rashida53.github.io/project-one/">
                                 <img className="card-img-top hover-zoom" src="images/foodle.png" alt="Card image cap"></img>
                                 <span className="text">
-                                    <SocialIcon className="socialIcon" url="https://rashida53.github.io/project-one/" label="Website link" />
-                                    <SocialIcon className="socialIcon" url="https://github.com/rashida53/event-handler" network="github" label="Github repo link" /></span>
+                                    <FaExternalLinkAlt size={'30px'} color={'black'} padding={'10px'} url={'https://rashida53.github.io/project-one/'} />
+                                    <FaGithub size={'30px'} color={'black'} url={"https://github.com/rashida53/project-one"} />
+                                </span>
                             </a>
 
                         </div>
                     </div>
                     <div className="col-lg-4 col-sm-12" style={styles.bottomCards}>
-                        <div className="card h-100" id="cardDiv" style={styles.zoom}>
+                        <div className="card h-100 zoom" id="cardDiv" style={styles.zoom}>
                             <a href="https://afternoon-cove-74927.herokuapp.com/">
                                 <img className="card-img-top bg-image hover-zoom" src="images/note-taker.png"
                                     alt="Card image cap"></img>
                                 <span className="text">
-                                    <SocialIcon className="socialIcon" url="https://afternoon-cove-74927.herokuapp.com/" label="Website link" />
-                                    <SocialIcon className="socialIcon" url="https://github.com/rashida53/event-handler" network="github" label="Github repo link" /></span>
+                                    <FaExternalLinkAlt size={'30px'} color={'black'} padding={'10px'} url={"https://afternoon-cove-74927.herokuapp.com/"} />
+                                    <FaGithub size={'30px'} color={'black'} url={"https://github.com/rashida53/event-handler"} />
+
+                                </span>
                             </a>
 
                         </div>
                     </div>
                     <div className="col-lg-4 col-sm-12" style={styles.bottomCards}>
-                        <div className="card h-100" id="cardDiv" style={styles.zoom}>
+                        <div className="card h-100 zoom" id="cardDiv" style={styles.zoom}>
                             <a href="https://rashida53.github.io/horiseon-refactor/">
                                 <img className="card-img-top hover-zoom" src="images/horiseon-refactor.png" alt="Card image cap"></img>
                                 <span className="text">
-                                    <SocialIcon className="socialIcon" url="https://rashida53.github.io/horiseon-refactor/" label="Website link" />
-                                    <SocialIcon className="socialIcon" url="https://github.com/rashida53/event-handler" label="Github repo link" /></span>
+                                    <FaExternalLinkAlt size={'30px'} color={'black'} padding={'10px'} url={"https://rashida53.github.io/horiseon-refactor/"} />
+                                    <FaGithub size={'30px'} color={'black'} url={"https://github.com/rashida53/horiseon-refactor"} />
+                                </span>
                             </a>
 
                         </div>
                     </div>
                     <div className="col-lg-4 col-sm-12" style={styles.bottomCards}>
-                        <div className="card h-100" id="cardDiv" style={styles.zoom}>
+                        <div className="card h-100 zoom" id="cardDiv" style={styles.zoom}>
                             <a href="https://rashida53.github.io/work-day-scheduler//">
                                 <img className="card-img-top w-100 hover-zoom" src="images/work-day-scheduler.png"
                                     alt="Card image cap"></img>
                                 <span className="text">
-                                    <SocialIcon className="socialIcon" url="https://rashida53.github.io/work-day-scheduler/" label="Website link" />
-                                    <SocialIcon className="socialIcon" url="https://github.com/rashida53/event-handler" network="github" label="Github repo link" /></span>
+                                    <FaExternalLinkAlt size={'30px'} color={'black'} padding={'10px'} url={"https://rashida53.github.io/work-day-scheduler/"} />
+                                    <FaGithub size={'30px'} color={'black'} url={"https://github.com/rashida53/work-day-scheduler"} />
+                                </span>
                             </a>
 
                         </div>
                     </div>
                     <div className="col-lg-4 col-sm-12" style={styles.bottomCards}>
-                        <div className="card h-100" id="cardDiv" style={styles.zoom}>
+                        <div className="card h-100 zoom" id="cardDiv" style={styles.zoom}>
                             <a href="https://rashida53.github.io/weather-dashboard/">
                                 <img className="card-img-top w-100 hover-zoom" src="images/weather-dashboard.png"
                                     alt="Card image cap"></img>
                                 <span className="text">
-                                    <SocialIcon className="socialIcon" url="https://rashida53.github.io/weather-dashboard/" network="default" label="Website link" />
-                                    <SocialIcon className="socialIcon" url="https://github.com/rashida53/event-handler" network="github" label="Github repo link" /></span>
+                                    <FaExternalLinkAlt size={'30px'} color={'black'} padding={'10px'} url={"https://rashida53.github.io/weather-dashboard/"} />
+                                    <FaGithub size={'30px'} color={'black'} url={"https://github.com/rashida53/weather-dashboard"} />
+                                </span>
                             </a>
 
                         </div>
                     </div>
 
                     <div className="col-lg-8 col-sm-12" style={styles.bottomCards}>
-                        <div className="card h-100" id="cardDiv" style={styles.zoom}>
+                        <div className="card h-100 zoom" id="cardDiv" style={styles.zoom}>
                             <a href="https://dry-stream-33901.herokuapp.com/">
                                 <img className="card-img-top bg-image hover-zoom" src="images/tech-blog.png"
                                     alt="Card image cap"></img>
                                 <span className="text">
-                                    <SocialIcon className="socialIcon" url="https://dry-stream-33901.herokuapp.com/" label="Website link" />
-                                    <SocialIcon className="socialIcon" url="https://github.com/rashida53/event-handler" network="github" label="Github repo link" /></span>
+                                    <FaExternalLinkAlt size={'30px'} color={'black'} padding={'10px'} url={"https://dry-stream-33901.herokuapp.com/"} />
+                                    <FaGithub size={'30px'} color={'black'} url={"https://github.com/rashida53/tech-blog"} />
+                                </span>
                             </a>
 
                         </div>
