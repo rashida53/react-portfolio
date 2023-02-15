@@ -21,10 +21,6 @@ export default function Footer() {
 
                     <section className="mb-4">
 
-                        <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                        ><SocialIcon url="https://www.example.com" label="Our portfolio" />
-                        </a>
-
 
                         <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
                         ><SocialIcon network="twitter" label="Our portfolio" />
@@ -37,11 +33,11 @@ export default function Footer() {
 
 
                         <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                        ><SocialIcon network="github" label="Our portfolio" /></a>
+                        ><SocialIcon network="github" url="https://github.com/rashida53" label="github" /></a>
 
 
                         <a className="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                        ><SocialIcon url="https://linkedin.com/in/jaketrent" />
+                        ><SocialIcon url="https://www.linkedin.com/in/rashida-kapadia-4435961a2" />
                         </a>
 
                     </section>

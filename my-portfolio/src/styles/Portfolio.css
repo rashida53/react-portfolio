@@ -1,0 +1,19 @@
+#cardDiv .text {
+    position: relative;
+    bottom: 5px;
+    left: 0px;
+    padding: 20px;
+    visibility: hidden;
+}
+
+#cardDiv:hover .text {
+    visibility: visible;
+}
+
+.zoom:hover {
+    transform: scale(0.9);
+}
+
+.socialIcon {
+    padding: 1%;
+}

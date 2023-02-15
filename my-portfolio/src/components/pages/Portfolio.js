@@ -1,4 +1,7 @@
 import React from "react";
+import '../../styles/Portfolio.css';
+import { SocialIcon } from 'react-social-icons';
+
 
 const styles = {
     mainDiv: {
@@ -49,67 +52,87 @@ export default function Portfolio() {
             <div className="container ">
                 <div className="row" style={styles.projectsContainer}>
                     <div className="col-lg-8 col-sm-12">
-                        <div class="card-header"><a style={styles.header} href="https://arcane-hollows-20210.herokuapp.com/">arcane-hollows-20210.herokuapp.com/</a></div>
-                        <div className="card h-100" style={styles.zoom}>
-
+                        <div className="card h-100 zoom" id="cardDiv" style={styles.zoom}>
                             <a href="https://arcane-hollows-20210.herokuapp.com/">
                                 <img className="card-img-top bg-image hover-zoom" src="images/everrands.png"
                                     alt="Card image cap"></img>
+                                <span className="text">
+                                    <SocialIcon className="socialIcon" url="https://arcane-hollows-20210.herokuapp.com/" label="Website link" />
+                                    <SocialIcon className="socialIcon" url="https://github.com/rashida53/event-handler" network="github" label="Github repo link" /></span>
                             </a>
+
                         </div>
 
 
                     </div>
                     <div className="col-lg-4 col-sm-12 second-card">
-                        <div className="card h-100" style={styles.zoom}>
+                        <div className="card h-100" id="cardDiv" style={styles.zoom}>
                             <div class="card-header"><a style={styles.header} href="https://rashida53.github.io/project-one/">rashida53.github.io/project-one/</a></div>
                             <a href="https://rashida53.github.io/project-one/">
-                                <img className="card-img-top" src="images/foodle.png" alt="Card image cap"></img>
+                                <img className="card-img-top hover-zoom" src="images/foodle.png" alt="Card image cap"></img>
+                                <span className="text">
+                                    <SocialIcon className="socialIcon" url="https://rashida53.github.io/project-one/" label="Website link" />
+                                    <SocialIcon className="socialIcon" url="https://github.com/rashida53/event-handler" network="github" label="Github repo link" /></span>
                             </a>
 
                         </div>
                     </div>
                     <div className="col-lg-4 col-sm-12" style={styles.bottomCards}>
-                        <div className="card h-100" style={styles.zoom}>
+                        <div className="card h-100" id="cardDiv" style={styles.zoom}>
                             <a href="https://afternoon-cove-74927.herokuapp.com/">
                                 <img className="card-img-top bg-image hover-zoom" src="images/note-taker.png"
                                     alt="Card image cap"></img>
+                                <span className="text">
+                                    <SocialIcon className="socialIcon" url="https://afternoon-cove-74927.herokuapp.com/" label="Website link" />
+                                    <SocialIcon className="socialIcon" url="https://github.com/rashida53/event-handler" network="github" label="Github repo link" /></span>
                             </a>
 
                         </div>
                     </div>
                     <div className="col-lg-4 col-sm-12" style={styles.bottomCards}>
-                        <div className="card h-100" style={styles.zoom}>
+                        <div className="card h-100" id="cardDiv" style={styles.zoom}>
                             <a href="https://rashida53.github.io/horiseon-refactor/">
-                                <img className="card-img-top" src="images/Horiseon-refactor.png" alt="Card image cap"></img>
+                                <img className="card-img-top hover-zoom" src="images/Horiseon-refactor.png" alt="Card image cap"></img>
+                                <span className="text">
+                                    <SocialIcon className="socialIcon" url="https://rashida53.github.io/horiseon-refactor/" label="Website link" />
+                                    <SocialIcon className="socialIcon" url="https://github.com/rashida53/event-handler" label="Github repo link" /></span>
                             </a>
 
                         </div>
                     </div>
                     <div className="col-lg-4 col-sm-12" style={styles.bottomCards}>
-                        <div className="card h-100" style={styles.zoom}>
+                        <div className="card h-100" id="cardDiv" style={styles.zoom}>
                             <a href="https://rashida53.github.io/work-day-scheduler//">
-                                <img className="card-img-top w-100" src="images/work-day-scheduler.png"
+                                <img className="card-img-top w-100 hover-zoom" src="images/work-day-scheduler.png"
                                     alt="Card image cap"></img>
+                                <span className="text">
+                                    <SocialIcon className="socialIcon" url="https://rashida53.github.io/work-day-scheduler/" label="Website link" />
+                                    <SocialIcon className="socialIcon" url="https://github.com/rashida53/event-handler" network="github" label="Github repo link" /></span>
                             </a>
 
                         </div>
                     </div>
                     <div className="col-lg-4 col-sm-12" style={styles.bottomCards}>
-                        <div className="card h-100" style={styles.zoom}>
+                        <div className="card h-100" id="cardDiv" style={styles.zoom}>
                             <a href="https://rashida53.github.io/weather-dashboard/">
-                                <img className="card-img-top w-100" src="images/weather-dashboard.png"
+                                <img className="card-img-top w-100 hover-zoom" src="images/weather-dashboard.png"
                                     alt="Card image cap"></img>
+                                <span className="text">
+                                    <SocialIcon className="socialIcon" url="https://rashida53.github.io/weather-dashboard/" network="default" label="Website link" />
+                                    <SocialIcon className="socialIcon" url="https://github.com/rashida53/event-handler" network="github" label="Github repo link" /></span>
                             </a>
 
                         </div>
                     </div>
 
                     <div className="col-lg-8 col-sm-12" style={styles.bottomCards}>
-                        <div className="card h-100" style={styles.zoom}>
+                        <div className="card h-100" id="cardDiv" style={styles.zoom}>
                             <a href="https://dry-stream-33901.herokuapp.com/">
                                 <img className="card-img-top bg-image hover-zoom" src="images/tech-blog.png"
                                     alt="Card image cap"></img>
+                                <span className="text">
+                                    <SocialIcon className="socialIcon" url="https://dry-stream-33901.herokuapp.com/" label="Website link" />
+                                    <SocialIcon className="socialIcon" url="https://github.com/rashida53/event-handler" network="github" label="Github repo link" /></span>
                             </a>
 
                         </div>
