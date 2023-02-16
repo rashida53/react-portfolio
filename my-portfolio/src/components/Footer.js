@@ -12,6 +12,7 @@ const styles = {
     }
 }
 
+//renders footer which remains on the singe page application
 export default function Footer() {
     return (
         <div style={styles.backgroundColor}>
@@ -37,7 +38,7 @@ export default function Footer() {
 
                 <div className="text-center p-3">
                     © 2020 Copyright:
-                    <a className="text-white" href="https://mdbootstrap.com/">rashidakapadia.com</a>
+                    <a className="text-white" href="https://safe-beyond-71267.herokuapp.com/">rashidakapadia.com</a>
                 </div>
 
             </footer>

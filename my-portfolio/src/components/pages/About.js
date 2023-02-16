@@ -58,6 +58,7 @@ const styles = {
     }
 }
 
+//renders about page
 export default function About() {
     return (
         <div className={'bg-image img-fluid'} style={styles.backgroundImage}>
